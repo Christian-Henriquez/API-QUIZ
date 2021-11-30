@@ -20,11 +20,11 @@ var questions = [
             "Statue of Liberty",
             "Statue of David",
             "Mount Rushmore",
-
-            answer: "Mount Rushmore"
+        ],
+        answer: "Mount Rushmore"
     },
     {
-        title: "Which official motto of the United States first appeared on paper currency in October 1957?"
+        title: "Which official motto of the United States first appeared on paper currency in October 1957?",
         choices: [
             "E pluribus unum",
             "New World Order",
@@ -33,3 +33,5 @@ var questions = [
         ],
         answer: "In God We Trust"
     },
+
+]
