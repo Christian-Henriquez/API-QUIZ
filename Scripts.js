@@ -23,8 +23,6 @@ function startQuiz() {
     timerId = setInterval(clockTick, 1000);
 
     timerEl.textContent = time;
-
-    getQuestion();
 }
 
 function getQuestion() {
@@ -34,7 +32,7 @@ function getQuestion() {
     var titleEl = document.getElementById("question-title");
     titleEl.textContent = currentQuestion.title;
 
-    choicesEl.innerHTML = "";
+    choicesEl.innerHTML = "choices";
 
     currentQuestion.choices.forEach(function (choice, i) {
         
